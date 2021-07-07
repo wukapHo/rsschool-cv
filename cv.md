@@ -1,18 +1,19 @@
-Vyacheslav Likashkov's CV
+# Vyacheslav Likashkov's CV
 
 My name is Vyacheslav Likashkov, beginner frontend developer. You can contaсt me via Telegram: @WukapHo
 
 Now I'm studying on a course from the Rolling Scopes School. I have a broad knowledge of the design of computers. I have no work experience, but I have a great aspiration to learn it. So I hope I can become a good engineer.
 
-My Skills
+### My Skills
 
-GitHub profile, up-to-date: wukapHo.
-My Codewars profile: wukapHo.
+* GitHub profile, up-to-date: [wukapHo](https://github.com/wukapHo).
+* My Codewars profile: [wukapHo](https://www.codewars.com/users/wukapHo).
 
-Code Example
+### Code Example
 
-Cat and Mouse - 2D Version
+* [Cat and Mouse - 2D Version](https://www.codewars.com/kata/57f8842367c96a89dc00018e)
 
+```
 function catMouse(map,moves){
     if (!map.includes('C') || !map.includes('m')) return 'boring without two animals';
     const arr = map.split('\n');
@@ -35,9 +36,11 @@ function catMouse(map,moves){
     if ((Math.abs(mouseY - catY) + Math.abs(mouseX - catX)) > moves) return 'Escaped!';
     return 'Caught!';
 };
+```
 
-Friday the 13ths
+* [Friday the 13ths](https://www.codewars.com/kata/540954232a3259755d000039)
 
+```
 function fridayTheThirteenths(start, end) {
     let current = new Date(start, 0, 13);
     let arr = [];
@@ -52,11 +55,12 @@ function fridayTheThirteenths(start, end) {
     }
     return arr.join(' ');
 };
+```
 
-Education
+### Education
 
 MSUCE, Moscow State University of Civil Engineering, 2008...2012.
 
-Languages
+### Languages
 
 English, Basic level (A2).
