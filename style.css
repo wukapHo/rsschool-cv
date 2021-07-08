@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #0d444d;
+    overflow-x: hidden;
+    min-height: 100vh;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.main {
+    width: 1170px;
+    background-color: #c5e1e6;
+}
+
+.hidden {
+    position: absolute;
+    display: block;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+}
+
+.about {
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 20px;
+    padding: 24px 30px 0;
+}
+
+.about__photo {
+    display: block;
+    position: inherit;
+    max-width: 130px;
+    object-fit: contain;
+    right: 20px;
+    
+}
+
+.about-info {
+    display: block;
+    position: relative;
+    max-width: 950px;
+    left: -150px;
+}
+
+.skills {
+    padding-left: 30px;
+}
+
+.code {
+    padding-left: 30px;
+}
+
+.education {
+    padding-left: 30px;
+}
+
+.languages {
+    padding-left: 30px;
+}
+
+.link {
+    color: #196469;
+}
+
+.link:hover {
+    color: #fff;
+}
+
+.footer {
+    max-width: 1140px;
+}
+
+.footer-container {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2a8086;
+}
+
+.github {
+    display: block;
+    width: 270px;
+    height: 45px;
+    padding-left: 45px;
+    background-image: url('/assets/github.svg');
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    line-height: 45px;
+    color: #cbd5de;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.github:hover {
+    color: #fff;
+}
+
+.rss {
+    display: block;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    width: 86px;
+    height: 32px;
+    background-image: url('/assets/rss.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-right: 50px;
+}
+
+.rss-year {
+    position: absolute;
+    bottom: 0;
+    left: 85px;
+    font-size: 21px;
+    letter-spacing: -2px;
+    color: #cbd5de;
+    line-height: 0.9;
+    transition: 0.3s;
+}
+
+.rss:hover .rss-year {
+    letter-spacing: 0;
+}
