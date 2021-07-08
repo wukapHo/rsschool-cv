@@ -100,7 +100,7 @@ ul {
     width: 270px;
     height: 45px;
     padding-left: 45px;
-    background-image: url('/assets/github.svg');
+    background-image: url('./assets/github.svg');
     background-size: 35px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -120,7 +120,7 @@ ul {
     font-family: 'Open Sans', sans-serif;
     width: 86px;
     height: 32px;
-    background-image: url('/assets/rss.svg');
+    background-image: url('./assets/rss.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
